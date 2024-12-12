@@ -1,0 +1,407 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    font-family: sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: sans-serif;
+}
+image{
+    max-width: 100%;
+    height: auto;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+.header{
+    float: left;
+    width: 100%;
+    background-color: #1d1b2b;
+}
+.container{
+    width: 1140px;
+    margin: 0px auto;
+}
+.row{
+    width: 100%;
+    float: left;
+}
+.col6{
+    width: 50%;
+    float: left;
+}
+.col6 h3{
+    font-size: 18px;
+    font-weight: 600;
+    margin: 10px 0px;
+    color: coral;
+}
+.menu{
+    display: block;
+    text-align: right;
+}
+.menu li{
+    list-style: none;
+    display: inline-block;
+    margin: 10px 0px;
+}
+.menu li a{
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+}
+.menu li:hover{
+    border-bottom: 2px solid red;
+}
+.banner{
+    width: 90%;
+    padding: 50px 67px;
+}
+.form{
+    margin: 50px 0px;
+}
+.form h1{
+    font-size: 45px;
+    line-height: 1.2em;
+    font-weight: 700;
+    color: rgb(255, 131, 43);
+}
+.form h5{
+    font-size: 23px;
+    font-weight: 600;
+    color: #ffefe8;
+}
+.btn-primary{
+    padding: 7px 10px;
+    margin: 10px 0px;
+    border-radius: 8px;
+    font-size: 14px;
+    color: white;
+    background:  coral;
+}
+.btn-primary:hover{
+    cursor: pointer;
+    background: rgb(15, 65, 245);
+    color: rgb(85, 255, 0);
+}
+.avater img{
+    width: 85%;
+    height: 274px;
+    transform: translate(-15px, 10px);
+}
+.avater{
+    display: block;
+    text-align: right;
+}
+.avaters img{
+    width: 80%;
+    height: 274px;
+}
+.formbox{
+    padding: 30px 0px 0px 43px;
+}
+.formbox h5{
+    font-size: 16px;
+    font-weight: 400;
+    color:  coral;
+}
+.formbox h2{
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 1.2em;
+    color: rgb(240, 227, 227);
+}
+.formbox p{
+    font-size: 14px;
+    font-weight: 300;
+    color: rgb(233, 226, 214);
+}
+/* focus start */
+.focus{
+    width: 100%;
+    text-align: center;
+    padding: 40px 0px;
+}
+.focus h5{
+    font-size: 18px;
+    font-weight: 400;
+    color:  coral;
+}
+.focus h2{
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 1.2em;
+    color: rgb(240, 227, 227);
+}
+.feature{
+       width: 90%;
+    padding: 50px 67px;
+}
+.row{
+    width: 100%;
+    float: left;
+}
+.col4{
+    width: 33.33%;
+    float: left;
+}
+.inerfeature{
+    padding: 0px 50px;
+    text-align: center;
+}
+.inerfeature h3{
+    font-size: 18px;
+}
+.inerfeature h5{
+    font-size: 16px;
+    color: #988782;
+}
+.inerfeature h6{
+    font-size: 13px;
+    text-align: center;
+    color: #f2ab30;
+}
+.inerfeature img{
+    width: 90%;
+}
+.bg-1{
+    background-color: #ffefe8;
+    width: 41%;
+    margin-left: 64px;
+    height: 220px;
+}
+
+/* focus end */
+
+.login{
+    width: 90%;
+    padding: 50px 67px;
+}
+.row{
+    width: 100%;
+    float: left;
+}
+.inerlogin{
+    padding: 0px 50px;
+    text-align: center;
+}
+.inerlogin h4{
+    font-size: 17px;
+    color: #e16531;
+}
+.inerlogin p{
+    font-size: 13px;
+    color: #9c9cba;
+}
+.inerlogin img{
+    width: 43%;
+    height: 120px;
+}
+
+.beautifull{
+    background-color: #ffefe8;
+    text-align: center;
+    padding: 75px 0px;
+    width: 90%;
+    margin: 40px 48px;
+    border-radius: 8px;
+}
+.beautifull h2{
+    font-size: 20px;
+}
+/* fotter start */
+
+/* fotter start */
+.fotter{
+    padding: 50px 0px 0px;    
+   width: 100%;
+}
+.row{
+    width: 100%;
+    float: left;
+}
+.col3{
+    width: 25%;
+    float: left;
+}
+.inerfotter{
+    width: 63%;
+    margin: 0px 46px;
+}
+.inerfotter h3{
+    font-size: 18px;
+    border-bottom: 3px solid rgb(238, 139, 68);
+    width: 58%;
+    color: #f0def0;
+}
+.inerfotter h4{
+    font-size: 14px;
+    margin: 10px 0px;
+    color: #52515c;
+}
+.inerfotter .fa{
+    width: 15%;
+    margin: 10px 0px;
+    background: rgb(244, 119, 23);
+    text-align: center;
+    padding: 10px 4px;
+    border-radius: 100%;
+    color: rgb(241, 237, 230);
+    font-size: 15px;
+}
+
+@media (min-width:279px) and (max-width:319px){
+
+}
+@media (min-width:320px) and (max-width:480px){
+    .container{
+        width: 90%;
+        margin: 0px auto;
+    }
+    .row{
+        width: 100%;
+        float: left;
+    }
+    .col6{
+        width: 100%;
+        float: left;
+    }
+    .col4{
+        width: 100%;
+        float: left;
+    }
+    .col3{
+        width: 100%;
+        float: left;
+    }
+    .col6 h3{
+        text-align: center;
+        margin: 0px;
+    }
+    .menu{
+        text-align: center;
+    }
+    .menu li a{
+        font-size: 13px;
+        padding: 3px;
+    }
+    .banner{
+        padding: 0px;
+        text-align: center;
+        transform: translate(10px, -40px);
+    }
+    .form h1{
+        font-size: 25px;
+    }
+    .form h5{
+        font-size: 16px;
+    }
+    .btn-primary{
+        font-size: 10px;
+    }
+    .avater img{
+        transform: translate(-19px, -30px);
+    }
+    .avaters img{
+        width: 86%;
+    }
+    .formbox{
+        padding: 10px 0px 0px;
+    }
+    .formbox h5{
+        font-size: 14px
+    }
+    .formbox h2{
+        font-size: 23px;
+    }
+    .formbox p{
+        font-size: 12px;
+    }
+    .focus{
+        padding: 0px;
+        transform: translate(0px, -27px);
+    }
+    .focus h5{
+        font-size: 14px;
+    }
+    .focus h2{
+        font-size: 23px;
+    }
+    .bg-1{
+        margin: 0px;
+        transform: translate(-36px, -54px);
+        width: 40%;
+    }
+    .inerfeature{
+        margin: 5px 23px;
+        padding: 8px 29px;
+        width: 46%;
+        height: 168px;
+    }
+    .inerfeature h3{
+        font-size: 16px;
+        padding: 0px;
+    }
+    .inerfeature h5{
+        font-size: 14px;
+    }
+    .inerfeature img{
+        width: 73%;
+    }
+    .login{
+        padding: 0px;
+        margin: 0px 10px;
+    }
+    .inerlogin{
+        padding: 0px;
+    }
+    .login img{
+        width: 31%;
+        height: 74px;
+    }
+    .login h4{
+        font-size: 15px;
+    }
+    .login p{
+        font-size: 12px;
+    }
+    .beautifull{
+        padding: 15px;
+        margin: 20px 0px;
+    }
+    .beautifull h2{
+        font-size: 18px;
+    }
+    .fotter{
+        padding: 0px;
+    }
+    .inerfotter{
+        text-align: center;
+    }
+    .inerfotter h3{
+        font-size: 15px;
+        margin: 0px 38px;
+    }
+    .inerfotter h4{
+        font-size: 13px;
+    }
+    .inerfotter .fa{
+        font-size: 11px;
+        padding: 7px 0px
+    }
+}
+@media (min-width:481px) and (max-width:767px){
+    
+}
+
+@media (min-width:768px) and (max-width:1024px){
+    
+}
